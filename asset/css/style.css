@@ -3,7 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
+html {
+    scroll-behavior: smooth;
+  }  
 /* end of reset */
 /* Util */
 .bg-red{
@@ -40,6 +45,20 @@
 h2{
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2em;
+}
+nav{
+    position: fixed;
+    z-index: 2;
+    right: 10px;
+    top: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-right: 40px;
+    vertical-align: middle;
+    padding: 0 10px;
 }
