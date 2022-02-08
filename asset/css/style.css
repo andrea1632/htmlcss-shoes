@@ -24,4 +24,22 @@
 /* end of Util */
 .box{
     height: 100vh;
+    position: relative;
+}
+
+.photo-container{
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    height: 503px;
+    width: 800px; 
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
 }
