@@ -1,0 +1,27 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* end of reset */
+/* Util */
+.bg-red{
+    background-color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-green{
+    background-color: green;
+}
+.yellow-text{
+    color: yellow;
+}
+.green-text{
+    color: green;
+}
+/* end of Util */
+.box{
+    height: 100vh;
+}
