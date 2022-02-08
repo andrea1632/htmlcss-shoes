@@ -61,4 +61,8 @@ nav a{
     margin-right: 40px;
     vertical-align: middle;
     padding: 0 10px;
+    transition: box-shadow .1s
 }
+nav a:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0); 
+  }
