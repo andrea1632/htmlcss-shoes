@@ -64,5 +64,5 @@ nav a{
     transition: box-shadow .1s
 }
 nav a:hover {
-    box-shadow: 0 0 20px rgb(0, 0, 0); 
+    box-shadow: 5px 2px 5px rgb(0, 0, 0);
   }
